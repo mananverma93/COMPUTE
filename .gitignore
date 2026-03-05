@@ -1,0 +1,29 @@
+# --- Data (keep private) ---
+Data/
+
+# --- Shiny deployment metadata ---
+rsconnect/
+
+# --- RStudio files ---
+.Rproj.user/
+.Rhistory
+.RData
+*.Rproj
+Housekeeping.Rmd
+COMPUTE.Rproj
+
+# --- Outputs / temporary files ---
+output/
+*.log
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment / config (sensitive) ---
+.env
+config/*.yml
+.Rproj.user
+
+renv
+renv.lock
